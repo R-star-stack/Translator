@@ -1,0 +1,48 @@
+<!Doctype html>
+<HTML lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="x-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="view-device-width,intial-scale=1.0">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <title>language translator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="translator_property">
+                <ul class="nuv_item">
+                    <li>
+                        <select>
+                                  
+                             </select>
+                    </li>
+                    <li class="bx bx-transfer"></li>
+                    <li>
+                        <select>
+                           
+                        </select>
+                    </li>
+                </ul>
+                <div class="write_box">
+                    <div class="property_from">
+                        <textarea maxlength="5000" class="fromtext" placeholder="write down"></textarea>
+                        <div class="icons">
+                            <span class="bx bx-volume-full from"></span>
+                            <div class="code_length">0/5000</div>
+                        </div>
+                    </div>
+                    <div class="property_trans">
+                        <textarea class="totranslate" disabled></textarea>
+                        <div class="icons">
+                            <span class="bx bx-volume-full to"></span>
+                            <span class="bx bx-copy"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="language.js"></script>
+        <script src="main.js"></script>
+    </body>
+</HTML>
